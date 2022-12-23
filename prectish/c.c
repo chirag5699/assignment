@@ -1,10 +1,26 @@
 #include <stdio.h>
 int main()
 {
-    int a =12;
+    int a, b, c;
+    printf("enter three namber");
+    scanf("%d,%d,%d", a, b, c);
 
-    printf(" a is %d", 55 | 27);
+    if (a > b)
 
+        if (a > c)
 
-   return 0;
+        {
+
+            printf("a is bigist");
+        }
+
+        else 
+        {
+            if(b>c)
+
+                printf("b is bigist");
+                printf("c is bigist");
+        }
+
+            return 0;
 }
