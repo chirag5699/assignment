@@ -17,17 +17,18 @@ int main()
 
     switch (choice)
     {
-    case 1:
+    case 1 ://(tv)
        
         printf("choice is tv\n");
         int gst_price = price * gst_par / 100;
         printf("gst_price is %d\n", gst_price);
 
+
         float net_price = price + gst_price;
-        printf("net_price is %f\n", net_price);
+        printf("net_price is %.2f\n", net_price);
 
         break;
-    case 2:
+    case 2 ://(ac)
        { printf("choice is ac\n");
         int gst_price = price * gst_par / 100;
         printf("gst_price is %d\n", gst_price);
@@ -36,7 +37,7 @@ int main()
         printf("net_price is %f\n", net_price);
         break;}
 
-    case 3:
+    case 3 ://(wm)
       {  printf("choice is wm\n");
         int gst_price = price * gst_par / 100;
         printf("gst_price is %d\n", gst_price);
@@ -45,7 +46,7 @@ int main()
         printf("net_price is %f\n", net_price);
         break;
       }
-    case 4:
+    case 4 ://(frige)
       {  printf("choice is frige\n");
         int gst_price = price * gst_par / 100;
         printf("gst_price is %d\n", gst_price);
@@ -54,7 +55,7 @@ int main()
         printf("net_price is %f\n", net_price);
         break;}
 
-    case 5:
+    case 5 ://(gijar)
        { printf("choice is gijar\n");
         int gst_price = price * gst_par / 100;
         printf("gst_price is %d\n", gst_price);
@@ -65,6 +66,7 @@ int main()
 
     default:
         printf("choice careact namber");
+
         break;
     }
     return 0;

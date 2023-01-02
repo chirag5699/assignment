@@ -16,14 +16,14 @@ int main()
 
   // printf("modulo is %d",A % B);
 
- int m,n;
- printf("enter m : ");
- scanf("%d",&m);
+ //int m,n;
+ //printf("enter m : ");
+ //scanf("%d",&m);
 
- printf("enter n : ");
- scanf("%d",&n);
+ //printf("enter n : ");
+ //scanf("%d",&n);
  
- printf("modulo is %d",m % n);
+ //printf("modulo is %d",m % n);
 
     return 0;
 }

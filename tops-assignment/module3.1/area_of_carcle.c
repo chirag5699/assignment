@@ -1,47 +1,38 @@
-#include<stdio.h>
+#include <stdio.h>
 int main()
 {
 
- // 1)find out area is carcle
-//int r ;
-  // printf("enter is area :");
-   //scanf("%d",&r);
+  // 1)find out area is carcle
+   int r ;
+     printf("enter is area :");
+     scanf("%d",&r);
 
-  // printf("carcal of area is %.3f",3.14*r*r);
+    printf("carcal of area is %.3f",3.14*r*r);
 
+  // 2) find out rectangle
+  
 
+      float length;
+  float width;
 
-// 2) find out rectangle
-   //length & width
+  printf("rectangle of length ");
+  scanf("%f", &length);
 
- // float length,width;
+  printf(" rectangle of width ");
+  scanf("%f", &width);
 
-  //printf("rectangle of length ");
-  //scanf("%f",&length);
+  printf("area is %.2f", length * width);
 
-  //printf(" rectangle of width ");
-  //scanf("%f",&width);
+  // 3) find out is triangle
 
-  //printf("area is %.2f" , length * width);
+    float base,hight ;
+    printf("enter is base :  ");
+    scanf("%f", &base);
 
- // 3) find out is triangle
+    printf("enter is hight :  ");
+    scanf("%f", &hight );
 
-  float base,hight ;
-  printf("enter is base :  ");
-  scanf("%f", &base);
+    printf("area of triangle %.2f",(base*hight)/2);
 
-
-  printf("enter is hight :  ");
-  scanf("%f", &hight );
-
-
-  printf("area of triangle %.2f",(base*hight)/2);
-
-
-
-
-
-
-
-    return  0;
+      return  0;
 }

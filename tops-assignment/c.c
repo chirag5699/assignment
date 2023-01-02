@@ -1,15 +1,9 @@
 #include <stdio.h>
 int main()
 {
-
-    // printf("my name is chirag\n");
-    // printf("birth date: is 27'july,1994\n");
-    // printf("my age is: 28 years\n");
-    // printf("my add is: b/504. angan res. sudama chowk.mota varchha.surat\n");
-
     int food, qun, amount = 1;
     int netAmount = 0;
-menu :
+
     printf("<<<<<------------------------->     will come to hotel for avadh    <-------------------------------->>>>\n");
     printf("plese enter your choice\n");
     printf("   item             que              price\n");
@@ -60,7 +54,7 @@ menu :
     else
     {
         printf("you have no selecte  an item");
-         goto menu;
+        // goto menu;
     }
     char yes;
     printf("\nyou ar continu  yes  or   no :");
@@ -77,5 +71,6 @@ menu :
     {
         printf("enter valid input");
     }
+
     return 0;
 }
