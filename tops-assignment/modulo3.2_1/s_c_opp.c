@@ -6,13 +6,13 @@ int main()
   char opertion;
   //(1.+ ,2.- ,3.* , 4./ ,5.%)
 
-  printf("enter a");
+  printf("enter a =");
   scanf("%d", &a);
-  printf(" enter choice oprestion (+ ,- ,* ,/ ,%%)\n ");
-  scanf("%c", &opertion);
-  scanf("%c", &opertion);
+  printf(" enter choice oprestion (+ ,- ,* ,/ ,%%) =");
+  scanf("%s", &opertion);
+  //scanf("%c", &opertion);
 
-  printf("enter b\n");
+  printf("enter b = ");
   scanf("%d", &b);
 
   switch (opertion)
@@ -32,14 +32,17 @@ int main()
   case '/':
     printf("Division is %d\n", a / b);
     break;
+   case '%':
 
-  case '%':
     printf("modulo is %d\n", a % b);
-    break;
+     break;
 
-  default:
-    printf(" carecct sum");
+   default:
+     printf(" not opertion");
     break;
   }
+
+  
+  
   return 0;
 }

@@ -9,8 +9,8 @@ int main()
     scanf("%d", &price);
     printf("enter gst par");
     scanf("%d", &gst_par);
-     //int gst_price = price * gst_par / 100;
-     //printf("gst_price is %d", gst_price);
+    // int gst_price = price * gst_par / 100;
+    // printf("gst_price is %d", gst_price);
 
     // float net_price = orignal_price + gst_price;
     // printf("net_price is %f", net_price);
@@ -18,16 +18,15 @@ int main()
     switch (choice)
     {
     case 1 ://(tv)
-       
-        printf("choice is tv\n");
-        int gst_price = price * gst_par / 100;
-        printf("gst_price is %d\n", gst_price);
 
+      printf("choice is tv\n");
+      int gst_price = price * gst_par / 100;
+      printf("gst_price is %d\n", gst_price);
 
-        float net_price = price + gst_price;
-        printf("net_price is %.2f\n", net_price);
+      float net_price = price + gst_price;
+      printf("net_price is %.2f\n", net_price);
 
-        break;
+      break;
     case 2 ://(ac)
        { printf("choice is ac\n");
         int gst_price = price * gst_par / 100;

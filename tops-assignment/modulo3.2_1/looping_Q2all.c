@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main()
 {
-    int arre[10]={1,2,3,4,5,6,7,8,9,10};
+    int arre[10];
     int i;
     int sum_even_num = 0;
     int sum_odd_num = 0;
@@ -36,11 +36,6 @@ int main()
     }
     printf("\n");
     printf("\nSum of odd number: %d", sum_odd_num);
-    for (i = 0; i < 10; i++)
-    {
-        even_nem = arre[i];
-    }
 
-    // printf("even namber --->");
     return 0;
 }
