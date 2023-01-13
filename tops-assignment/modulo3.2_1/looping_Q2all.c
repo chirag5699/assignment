@@ -2,18 +2,19 @@
 int main()
 {
     int arre[10];
-    int i;
+    int i,n;
     int sum_even_num = 0;
     int sum_odd_num = 0;
     int even_nem, odd_nem;
-    printf("enter 10 namber: \n");
-    for (i = 0; i < 10; i++)
+    printf("enter you are choice namber: \n");
+    scanf("%d", &n);
+    for (i = 0; i < n; i++)
     {
         printf("enter value -->>");
         scanf("%d", &arre[i]);
     }
     printf("<<<<<----------------------->>>>>\n");
-    for (i = 0; i < 10; i++)
+    for (i = 0; i < n; i++)
     {
         if (arre[i] % 2 == 0)
         {
@@ -25,7 +26,7 @@ int main()
 
     printf("\nSum of even number: %d", sum_even_num);
     printf("\n");
-    for (i = 0; i < 10; i++)
+    for (i = 0; i < n; i++)
     {
         if (arre[i] % 2 == 1)
         {

@@ -5,14 +5,15 @@ int main()
     int netAmount = 0;
 
     printf("<<<<<------------------------->     will come to hotel for avadh    <-------------------------------->>>>\n");
+    ("   item             que              price\n");
     printf("plese enter your choice\n");
-    printf("   item             que              price\n");
     printf("1.)burger          1.                100  \n");
     printf("2.)pizza           1.                220  \n");
     printf("3.)dhosha          1.                150  \n");
     printf("4.)idli            1.                120  \n");
+    printf
 
-    printf("\nyou have selecte item...");
+        printf("\nyou have selecte item...");
     scanf("%d", &food);
 
     if (food == 1)
