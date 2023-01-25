@@ -1,0 +1,10 @@
+Amount= 200
+
+net_ammont is 200
+Amount= 440
+
+net_ammont is 640
+Amount= 750
+
+net_ammont is 1390
+net amount = 1390
