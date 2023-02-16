@@ -10,10 +10,10 @@ public:
 
     void informetion()
     {
-        cout << "\naccount holder name :";
-        getline(cin, name);
-        cout << "\n enter account namber :";
-        cin >> acno;
+        // cout << "\naccount holder name :";
+        // getline(cin, name);
+        // cout << "\n enter account namber :";
+        // cin >> acno;
         cout << "\nenter account type(saving,current) : ";
         cin >> actype;
         cout << "\naccount balance to diposite :";
@@ -24,10 +24,7 @@ public:
     {
 
         int depositAmount;
-        cout << "\nenter account namber :";
-        cin >> acno;
-        cout << "\nenter account type(saving,current) : ";
-        cin >> actype;
+        
         cout << "\nenter the amount to diposit :  ";
         cin >> depositAmount;
         balance = balance + depositAmount;
@@ -37,21 +34,18 @@ public:
     void withdraw()
     {
         int withdraw;
-        cout << "\nenter account namber :";
-        cin >> acno;
-        cout << "\nenter account type(saving,current) : ";
-        cin >> actype;
-        cout << "you are new balance ::" << balance;
+
+        cout << "\nyour  new balance ::" << balance;
         cout << "\nenter withdraw ammont : ";
         cin >> withdraw;
         if (balance >= withdraw)
         {
             balance = balance - withdraw;
-            cout << "\nprocess :::: current balance :" << balance;
+            cout << "\nprocessing :::: current balance :" << balance;
         }
         else if (balance <= withdraw)
         {
-            cout << "sorry you are not withdraw----\n---pleash enter more then  amont balance--- :->" << balance;
+            cout << "sorry you are not amount withdraw----\n---pleash enter more then amount balance--- :->" << balance;
         }
         else
         {
