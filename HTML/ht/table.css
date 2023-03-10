@@ -1,0 +1,25 @@
+.ok {
+    background-color: rgb(209, 42, 42);
+    color: white;
+}
+
+.ko {
+    background-color: rgba(15, 5, 5, 0.831);
+    color: white;
+
+}
+
+.jay {
+    background-color: rgb(48, 212, 48);
+    /* border: white; */
+}
+
+body {
+    background-color: green;
+
+}
+
+.d {
+    color: white;
+    background-color: rgb(48, 212, 48);
+}

@@ -1,0 +1,30 @@
+body{
+height: "100%" ; width: "100%";
+    background-image: url("./immage/krisna.jpg" );
+    background-repeat: no-repeat;
+    background-repeat: round;
+}
+
+
+h1{
+    background-color: rgb(168, 162, 154);
+}
+th{
+    color: rgb(44, 97, 97);
+}
+h1{
+    color: rgb(194, 107, 0);
+}
+td{
+  color: rgb(58, 63, 63);
+}
+
+.special{
+    color: moccasin;
+}
+.ok{
+    color: darkorange;
+}
+.main{
+    color: rgb(112, 25, 66);
+}
